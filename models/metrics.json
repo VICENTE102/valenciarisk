@@ -1,0 +1,66 @@
+{
+  "silhouette_score": 0.4545,
+  "n_clusters": 4,
+  "cluster_features": [
+    "heat_score",
+    "green_deficit_score",
+    "social_score",
+    "pct_elderly"
+  ],
+  "ols_regression": {
+    "r_squared": 0.3383,
+    "coef_green_m2_per_resident": -0.0015,
+    "pval_green": 0.1133,
+    "n_obs": 85
+  },
+  "pearson_correlation": {
+    "pearson_r": -0.385,
+    "p_value": 0.0003
+  },
+  "morans_i": {
+    "morans_i": NaN,
+    "p_value": 0.001,
+    "interpretation": "Significant spatial clustering"
+  },
+  "cluster_profiles": [
+    {
+      "cluster": 0,
+      "cluster_name": "Triple Burden",
+      "heat_score": 0.547,
+      "green_deficit_score": 0.828,
+      "social_score": 0.866,
+      "hvi": 0.727,
+      "pop_total": 5642.5
+    },
+    {
+      "cluster": 1,
+      "cluster_name": "Heat-Exposed",
+      "heat_score": 0.851,
+      "green_deficit_score": 0.0,
+      "social_score": 0.318,
+      "hvi": 0.436,
+      "pop_total": 6456.625
+    },
+    {
+      "cluster": 2,
+      "cluster_name": "Socially Fragile",
+      "heat_score": 0.608,
+      "green_deficit_score": 0.0,
+      "social_score": 0.205,
+      "hvi": 0.305,
+      "pop_total": 6841.25
+    },
+    {
+      "cluster": 3,
+      "cluster_name": "Resilient",
+      "heat_score": 0.179,
+      "green_deficit_score": 0.0,
+      "social_score": 0.103,
+      "hvi": 0.103,
+      "pop_total": 1884.0
+    }
+  ],
+  "n_barrios": 85,
+  "n_high_risk": 4,
+  "pop_high_risk": 20360
+}
